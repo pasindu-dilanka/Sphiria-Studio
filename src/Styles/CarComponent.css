@@ -1,0 +1,140 @@
+.carContainer{
+    width: 38vw;
+    height: fit-content;
+    background-color: rgb(240, 219, 219);
+    border-radius: 15px;
+    display: flex;
+}
+
+.carDetail{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.otherDetails{
+    width: 45%;
+
+}
+
+.iconSet{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    margin-right: 10px;
+}
+
+.icon1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(238, 202, 202);
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.icon2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(247, 242, 240);
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.icon3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 241, 211);
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.icon4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(219, 209, 235);
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+}
+
+.totalRun{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(186, 177, 202) ;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .carContainer{
+        width: 450px;
+    }
+
+    .iconSet{
+        margin-right: -50px;
+        gap: 8px;
+    }
+
+    .icon1{
+        margin-right: -10px;
+        padding: 7px;
+    }
+    
+    .icon2{
+        margin-right: -10px;
+        padding: 7px;
+    }
+
+    .icon3{
+        margin-right: -40px;
+        padding: 7px;
+    }
+
+    .icon4{
+        margin-right: -40px;
+        padding: 7px;
+    }
+}

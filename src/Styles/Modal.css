@@ -1,0 +1,83 @@
+.modalBackground {
+    width: 100%;
+    background-color: rgb(164, 164, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.modalContainer {
+    width: fit-content;
+    height:auto;
+    background-color: rgb(247, 243, 252);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+
+.carContainer {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 20px;
+    
+}
+
+.carBlock{
+    display: flex;
+}
+
+
+.regColContainer {
+    width: 80vw;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-bottom: 20px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 300px 10px 10px;
+    margin-right: 35px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .top{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search{
+        padding: 5px 150px 5px 5px;
+        margin-left: 10px;
+    }
+
+    .carBlock{
+        flex-direction: column;
+    }
+
+    .regColContainer{
+        overflow-x: scroll;
+    }
+}

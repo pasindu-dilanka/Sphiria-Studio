@@ -1,0 +1,19 @@
+.topBar {
+    background-color: rgb(247, 243, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    width: 60px;
+    height: 80px;
+    margin-left: 20px;
+    mix-blend-mode: multiply;
+}
